@@ -8,9 +8,8 @@ html, body {
 
 header {
   padding:10px;
-  border: 1px solid purple;
-  margin: 10pxx;
-  
+  border: 5px solid whitesmoke;
+    
   height:100%;
   width:100%;
   background-image: url("Images/Sunrise\ on\ Lake.jpg");
@@ -26,30 +25,40 @@ header {
 }
 
 h1.style1{
-  text-shadow: 2px 2px 5px ;
-  font-size:60;
+  color: white;
+  text-shadow: 2px 2px 5px salmon;
+  font-size:40px;
 }
-h2.style1{}
-h3.style1{}
+h2.style1{
+  color:darksalmon;
+  text-shadow: 2px 2px 5px midnightblue ;
+  font-size: 30px;
+  
+}
+h3.style1{
+  color: black;
+  text-shadow: 2px 2px 5px white;
+  font-size:20px;
+}
 
 nav{
   padding:10px;
-  border: 1px dotted orangered;
+  border: 1px dotted darkslateblue;
   border-width: 5px thick;
-  margin-left:10px;
-  background-color: ;
+  margin-left:20px;
+  background-color: white ;
 }
 
 nav li{
-  width: 60%;
-  padding: 5px;
-  margin: 5px;
-  border: dotted medium solid midnightblue;
-  background-color: goldenrod;
+  width: 100%;
+  padding: 10px ;
+  margin: 10px;
+  border: solid midnightblue;
+  background-color: salmon;
 
-  font-familyt:;
-  font-size:15;
-  text-align:left;
+  font-family:copperplate;
+  font-size:15px;
+  text-align:center;
   color: orangered;
 
   list-style-type:none;
@@ -57,18 +66,28 @@ nav li{
 
 main {
   padding:30px;
-  border: 1px dotted #c5542b;
+  border: 1px dotted darkslateblue;
   border-width: 5px thick;
   margin-right:10px;
+  background-color:#FF5050;
+
+  color:midnightblue
   
 }
 
 footer {
   padding:10px;
-  border: 1px dashed blueviolet;
-  margin-top: 5px;
+  border-top: 5px solid whitesmoke;
+  color:midnightblue
 }
 
+/*--Everyother Style for Page 1 Roman--*/
+
+.everyother{
+  background-color:#e7e8e9;
+}
+
+/*--Table style Page 2--*/
 
 
 /*---Grid Container---*/
