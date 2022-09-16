@@ -28,6 +28,11 @@ header {
     
 }
 
+header>img {
+      float: left;
+      margin:20px;
+    }
+
 h1.style1{
   color: white;
   text-shadow: 2px 2px 5px salmon;
@@ -52,17 +57,20 @@ h3.chg:hover{
 }
 
 nav{
+  
+  width:300px;  
   padding:10px;
   border: 1px dotted darkslateblue;
   border-width: 5px thick;
-  margin-left:20px;
+  margin-top:10px;
+  margin-left:10px;
   background-color: white ;
 }
 
 nav li{
-  width: 100%;
+  
   padding: 10px ;
-  margin: 10px;
+  margin: 5px;
   border: solid midnightblue;
   background-color: salmon;
 
@@ -84,11 +92,14 @@ nav li:hover{
 }
 
 main {
-  padding:30px;
+  width:100%;
+  padding: 20px;
   border: 1px dotted darkslateblue;
   border-width: 5px thick;
-  margin-right:10px;
   background-color:#FF5050;
+  margin-top:10px;
+
+  overflow:auto;
 
   color:midnightblue
   
@@ -110,6 +121,7 @@ table, th, td{
   border:2px solid black;
   width:50%;
   margin-left:20%;
+  
 
   font-family:serif;
   font:1.5em;
@@ -153,7 +165,7 @@ footer {
 
 .grid-container{
   display:grid;
-  grid-row-gap: 10%;
+  grid-row-gap: 5%;
   grid-column-gap: 3%;
   grid-template-areas:
     'hdr1area hdr1area hdr1area'
