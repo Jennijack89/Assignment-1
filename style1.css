@@ -99,11 +99,14 @@ main {
   background-color:#FF5050;
   margin-top:10px;
 
-  overflow:auto;
+ /* overflow:auto; */
 
   color:midnightblue
   
 }
+
+
+
 
 p{
   font-weight: bold;
