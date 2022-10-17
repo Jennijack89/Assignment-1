@@ -6,7 +6,7 @@ function checkUser(){
      alert('Username Exists: Please Choose Another.');
     return false;
   }
-  return true
+  return true;
 }
 
 function verifyPw(){
@@ -16,7 +16,7 @@ function verifyPw(){
     alert("Password Mismatch: Please re-enter Password");
     return false;
     }
-  return true
+  return true;
 }
 //function showPwd() {
  // let myInput=document.getElementsByTagName('input');
