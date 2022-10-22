@@ -1,3 +1,12 @@
+//Validation function - returns true if User and PassWord meet Specs.
+//Located - Onsubmit in <Form>
+
+function validateForm(){
+  return checkUser() && verifyPw();
+}
+
+//Returns true if user is not listed in Array list of name.
+//Makes sure user doesn't use existing Username
 function checkUser(){
   let userName= document.getElementById('usrName').value;
   let lowerUserName = userName.toLowerCase();
@@ -9,6 +18,7 @@ function checkUser(){
   return true;
 }
 
+//Verified re-entered password matches password. returns true if match and false otherwise
 function verifyPw(){
   let passWord=document.getElementById('passWrd').value;
   let rePassWord=document.getElementById('passWrdreEntr').value;

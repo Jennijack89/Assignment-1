@@ -148,15 +148,7 @@ iframe{
 
 svg{
   width:100%;
-}
-
-.face{
-  cx:'100';
-  cy:'150'; 
-  r:'100'; 
-  stroke-width:'6';   
-  fill:'purple'; 
-  stroke:'yellow';
+  height: 100%;
 }
 
 
@@ -257,7 +249,7 @@ li.lroman {
 @media screen and (max-width:600px){
 
   body{
-    background-color:midnightblue;
+    background-color:purple;
   }
   body:hover{
     background-color:midnightblue;
@@ -313,6 +305,3 @@ footer{
   text-align: center;
 }
 
-
-  
-}
